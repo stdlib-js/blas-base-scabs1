@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import scabs1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-scabs1/tags). For example,
+
+```javascript
 import scabs1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@v0.0.1-deno/mod.js';
 ```
 
@@ -69,7 +74,7 @@ var y = scabs1( new Complex64( 5.0, -3.0 ) );
 ```javascript
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import scabs1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@v0.0.1-deno/mod.js';
+import scabs1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@deno/mod.js';
 
 var c;
 var i;
