@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-scabs1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Compute the sum of the absolute values of the real and imaginary components of a single-precision complex floating-point number.",
   "license": "Apache-2.0",
   "author": {
@@ -40,7 +40,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/complex-float32-ctor": "github:stdlib-js/complex-float32-ctor#main",
+    "@stdlib/complex-float32-ctor": "^0.0.1",
     "@stdlib/complex-imagf": "^0.2.1",
     "@stdlib/complex-realf": "^0.2.1",
     "@stdlib/complex-reimf": "^0.2.1",
