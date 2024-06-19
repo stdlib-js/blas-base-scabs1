@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-scabs1 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@umd/browser.js' )
+scabs1 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@v0.0.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var scabs1 = require( 'path/to/vendor/umd/blas-base-scabs1/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@v0.0.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -96,7 +96,7 @@ var y = scabs1( new Complex64( 5.0, -3.0 ) );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@v0.0.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
