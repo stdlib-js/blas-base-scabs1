@@ -41,9 +41,9 @@
   },
   "dependencies": {
     "@stdlib/complex-float32-ctor": "^0.0.1",
-    "@stdlib/complex-float32-imag": "github:stdlib-js/complex-float32-imag#main",
-    "@stdlib/complex-float32-real": "github:stdlib-js/complex-float32-real#main",
-    "@stdlib/complex-float32-reim": "github:stdlib-js/complex-float32-reim#main",
+    "@stdlib/complex-float32-imag": "^0.1.0",
+    "@stdlib/complex-float32-real": "^0.1.0",
+    "@stdlib/complex-float32-reim": "^0.1.0",
     "@stdlib/math-base-special-absf": "^0.2.1",
     "@stdlib/napi-argv": "^0.2.1",
     "@stdlib/napi-argv-complex64": "^0.0.1",
