@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-scabs1",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compute the sum of the absolute values of the real and imaginary components of a single-precision complex floating-point number.",
   "license": "Apache-2.0",
   "author": {
