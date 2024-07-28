@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import scabs1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@deno/mod.js';
+import scabs1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@v0.0.2-deno/mod.js';
 ```
 
 #### scabs1( z )
@@ -69,7 +69,7 @@ var y = scabs1( new Complex64( 5.0, -3.0 ) );
 ```javascript
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import scabs1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@deno/mod.js';
+import scabs1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-scabs1@v0.0.2-deno/mod.js';
 
 var c;
 var i;
