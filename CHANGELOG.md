@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`09c9ceb`](https://github.com/stdlib-js/stdlib/commit/09c9ceb58c6dd23c10f1980094851983c57d693f) - **chore:** fix formatting _(by Athan Reines)_
 -   [`51bf6f9`](https://github.com/stdlib-js/stdlib/commit/51bf6f9d2bb027aacecda87e02f957badbc246b0) - **bench:** fix formatting _(by Athan Reines)_
 -   [`842df0c`](https://github.com/stdlib-js/stdlib/commit/842df0c167d3ff3932c7ca8471c5397b4a651c76) - **refactor:** ensure float32 emulation _(by Athan Reines)_
 -   [`08f9c1a`](https://github.com/stdlib-js/stdlib/commit/08f9c1af6dee1cc36cda84b10230500e75d53ff5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
