@@ -50,7 +50,7 @@
     "@stdlib/napi-create-double": "^0.0.3",
     "@stdlib/napi-export": "^0.3.1",
     "@stdlib/number-float64-base-to-float32": "^0.2.3",
-    "@stdlib/types": "^0.4.3",
+    "@stdlib/types": "^0.5.1",
     "@stdlib/utils-library-manifest": "^0.2.4"
   },
   "devDependencies": {
