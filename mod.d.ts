@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,21 +16,17 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var addon = require( './../src/addon.node' );
-
-
-// MAIN //
+import { Complex64 } from '@stdlib/types/complex';
 
 /**
 * Computes the sum of the absolute values of the real and imaginary components of a single-precision complex floating-point number.
 *
-* @private
-* @param {Complex64} c - complex number
-* @returns {number} result
+* @param c - complex number
+* @returns result
 *
 * @example
 * var Complex64 = require( '@stdlib/complex-float32-ctor' );
@@ -38,11 +34,9 @@ var addon = require( './../src/addon.node' );
 * var v = scabs1( new Complex64( 5.0, -3.0 ) );
 * // returns 8.0
 */
-function scabs1( c ) {
-	return addon( c );
-}
+declare function scabs1( c: Complex64 ): number;
 
 
 // EXPORTS //
 
-module.exports = scabs1;
+export = scabs1;
